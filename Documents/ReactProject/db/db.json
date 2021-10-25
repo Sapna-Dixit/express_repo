@@ -1,0 +1,6 @@
+{
+    "restauant" :[
+        {"id":1,"name" :"json-restaurant","author":"Ramlal"},
+        {"id":2,"name":"java-restaurant", "author":"Shamlal"}
+    ]
+}
