@@ -1,0 +1,23 @@
+#register{
+    border: 1px solid lightgrey;
+    padding:10px;
+    box-shadow: 2px 2px 2px white;
+    width:100%;
+    height:auto;
+}
+h3{
+    color:blue;
+}
+.gender{
+    margin-top:10px;   
+}
+.btn{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.error{
+    position:absolute;
+    color:red;
+    font-size: -6rem;
+}
