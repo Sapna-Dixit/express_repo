@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(116.57deg, rgba(97, 119, 187, 0) 0%, rgba(97, 119, 187, 0.40625) 0.01%, #CE89BC 31.65%, #6C7EB5 92.36%);
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
