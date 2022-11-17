@@ -1,0 +1,40 @@
+.form-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex-style {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.card-table {
+  margin: 12px;
+}
+.btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.add-btn-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* -----buttonnn end--------- */
+.pagination-style {
+  margin: 12px 0px;
+}
+
+@media (min-width: 250px) and (max-width: 768px) {
+  .section-btn {
+    display: flex;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,58 @@
+
+.form-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-table {
+  margin: 12px;
+}
+.btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+}
+.button-icon {
+  display: flex !important;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+  color: white;
+}
+.btn-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.transaction-field {
+  display: flex;
+  justify-content: space-between;
+}
+.left-field {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (min-width: 250px) and (max-width: 768px) {
+  .transaction-field {
+    display: block;
+    justify-content: space-between;
+  }
+  .left-field {
+    width: 100%;
+    display: block;
+  }
+  .section-btn {
+    display: blocl;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+  }
+}

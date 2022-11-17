@@ -1,0 +1,39 @@
+
+.form-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex-style {
+  flex-grow: 1;
+  width: 100%;
+}
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.label-style {
+  font-size: 14px;
+  color: var(--black200);
+  font-weight: 500;
+}
+@media (min-width: 250px) and (max-width: 1033px) {
+  .search-flex {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+  .section-btn {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-top: 10px;
+  }
+}
+.search-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0px;
+}

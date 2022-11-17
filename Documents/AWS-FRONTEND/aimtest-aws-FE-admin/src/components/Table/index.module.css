@@ -1,0 +1,56 @@
+/* -------table css------ */
+/* .card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  background-color: var(--white200);
+}
+.card-table {
+  margin: 12px;
+}
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+}
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.table-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+tr.table-heading {
+  padding-top: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+tr.table-data {
+  font-size: 13px;
+}
+.icon-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 10px;
+  cursor: pointer;
+} */
+
+/* -----table end ------  */
+

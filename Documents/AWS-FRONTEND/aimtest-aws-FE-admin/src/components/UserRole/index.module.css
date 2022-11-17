@@ -1,0 +1,78 @@
+
+.flex-style {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  background-color: var(--white200);
+}
+.card-table {
+  margin: 12px;
+}
+/* -----input -----*/
+
+.reset-message {
+  color: var(--white100);
+}
+/* -----buttonnn--------- */
+
+.add-btn {
+  margin-bottom: 12px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* -----buttonnn end--------- */
+.pagination-style {
+  margin: 12px 0px;
+}
+/* -----search-field------ */
+.search-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+}
+.search-relative {
+  position: relative;
+}
+.search-absolute {
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  color: var(--gray200);
+}
+input.input-search {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.search-bg {
+  background-color: var(--blue100);
+}
+/* -----search-field------ */
+.search-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.search-flex {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 250px) and (max-width: 768px) {
+  .search-flex {
+    display: block !important;
+  }
+  .section-btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}

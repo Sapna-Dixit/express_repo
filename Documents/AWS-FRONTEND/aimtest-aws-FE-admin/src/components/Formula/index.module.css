@@ -1,0 +1,98 @@
+
+.flex-style {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.form-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* .flex-style {
+  flex-grow: 1;
+  width: 100%;
+} */
+
+.card-table {
+  margin: 12px;
+}
+.btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+/* -----search-field------ */
+/* .search-relative {
+  position: relative;
+}
+.search-absolute {
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  color: var(--gray100);
+}
+input.input-search {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.search-bg {
+  background-color: var(--blue100);
+} */
+.formula-accordion {
+  padding: 20px;
+}
+.btn-end {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* -----search-end------ */
+@media (min-width: 250px) and (max-width: 768px) {
+  .search-flex {
+    display: block !important;
+  }
+  .section-btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+.search-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.addoption-icon {
+  display: flex;
+  background: var(--blue100);
+  border-radius: 4px;
+  color: var(--white100);
+  cursor: pointer;
+  height: 37px;
+  width: 37px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.removeoption-icon {
+  display: flex;
+  background: var(--red100);
+  border-radius: 4px;
+  color: var(--white100);
+  cursor: pointer;
+  height: 37px;
+  width: 37px;
+  /* align-items: center;
+  justify-content: center; */
+  width: 34px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

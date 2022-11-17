@@ -1,0 +1,179 @@
+.modal-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal.show .modal-dialog {
+  transition: all 0.5s linear !important;
+}
+.close-btn {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+button.sucess-btn {
+  background-color: var(--green100);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+}
+button.sucess-btn:hover {
+  background-color: var(--green200);
+}
+button.delete-btn {
+  background-color: var(--red100);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+}
+
+button.delete-btn:hover {
+  background-color: var(--red200);
+}
+.forgot-text {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0px 4px;
+  color: var(--white100);
+}
+.reset-login {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+}
+.flexx {
+  display: flex;
+  justify-content: space-between;
+}
+.input-margin {
+  padding-top: 11px;
+}
+
+.label-float label {
+  pointer-events: none;
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 15px;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  background: var(--white200);
+  padding: 5px;
+  box-sizing: border-box;
+  color: var(--gray200);
+  font-size: 13px;
+}
+.label-float input:required:invalid + label:before {
+  content: '*';
+}
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label {
+  font-size: 13px;
+  top: 0;
+  color: var(--gray100);
+}
+.reset-message {
+  color: var(--white100);
+}
+/*------ inputend -------*/
+
+.upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  color: #fff;
+  background-color: #4aa0ea;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.upload p {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+.upload.is-highlight {
+  background-color: rgba(74, 160, 234, 0.5);
+}
+.upload.is-highlight p {
+  opacity: 1;
+}
+.upload.is-drop p {
+  opacity: 0;
+}
+.upload-button {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.upload-file {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #101010;
+  border: 0;
+}
+
+.upload-btn {
+  text-align: center;
+  border: 1px solid #cac4c4;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 10px 0px;
+  background-color: #92929217;
+  width: -webkit-fill-available;
+}
+.upload-icon {
+  font-size: 30px;
+  color: var(--blue100);
+}
+.img-upload {
+  width: 160px;
+}
+
+.img-upload {
+  width: 40px;
+}
+.modal-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.field-size {
+  width: 49%;
+}
+
+.modal-height {
+  
+  overflow-y: auto;
+}
+
+.label-float {
+  padding-top: 11px;
+}

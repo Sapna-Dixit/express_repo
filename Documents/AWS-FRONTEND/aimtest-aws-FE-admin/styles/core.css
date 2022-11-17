@@ -1,0 +1,20 @@
+:root {
+  --white100: #ffffff;
+  --white200: #fff;
+  /* --blue100: #006795; */
+  --blue100: hsl(198, 98%, 34%);
+  --blue300: #014d76;
+  --blue200: #0f7faf;
+  --gray100: #bbc2c3;
+  --gray200: #4a4848;
+  --black100: #000;
+  --black200: #565656;
+  --red200: #be0808;
+  --red100: #e30d0d;
+  --yellow200: #ffa500;
+  --green200: #008000;
+  --green100: #228b22;
+  --yellow100: #ffb731;
+  --gray300: #f4f4f4;
+  --gray400: #ffffff2e;
+}

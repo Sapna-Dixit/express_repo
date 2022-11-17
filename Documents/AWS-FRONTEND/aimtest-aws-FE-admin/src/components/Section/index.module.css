@@ -1,0 +1,41 @@
+
+.flex-style {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.add-btn {
+  margin-bottom: 12px;
+  margin-top: 12px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+/* -----input -----*/
+
+.pagination-style {
+  margin: 12px 0px;
+}
+.search-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -----search-field------ */
+
+/* -----media-query------ */
+@media (min-width: 250px) and (max-width: 768px) {
+  .search-flex {
+    display: block !important;
+  }
+  .section-btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}

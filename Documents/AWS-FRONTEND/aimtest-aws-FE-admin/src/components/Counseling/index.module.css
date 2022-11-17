@@ -1,0 +1,83 @@
+.form-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.flex-style {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.label-style {
+  font-size: 14px;
+  color: var(--black200);
+  font-weight: 600;
+  padding: 5px 0px;
+}
+.flex-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.save-close {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.test {
+  color: #006d84;
+  font-weight: 500;
+  padding: 1px 10px 12px 0px;
+}
+.test-back {
+  color: #006d84;
+  font-weight: 500;
+  padding: 1px 27px 8px 27px;
+}
+
+.save {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.add-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.back-img {
+  font-size: 20px;
+  cursor: pointer;
+}
+.form-field {
+  padding: 0px 27px;
+}
+.plus {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-plusicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+.section-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+@media (min-width: 250px) and (max-width: 768px) {
+  .section-btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}

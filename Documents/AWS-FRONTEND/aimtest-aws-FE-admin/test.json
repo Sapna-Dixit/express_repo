@@ -1,0 +1,906 @@
+{
+  "numberTest": {
+    "levels": [
+      {
+        "level": 1,
+        "noOfDigits": 1,
+        "quesDigit": 4,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 2,
+        "noOfDigits": 2,
+        "quesDigit": 43,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 3,
+        "noOfDigits": 3,
+        "quesDigit": 432,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 1,
+        "noOfDigits": 1,
+        "quesDigit": 4,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 2,
+        "noOfDigits": 2,
+        "quesDigit": 43,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 3,
+        "noOfDigits": 3,
+        "quesDigit": 432,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 1,
+        "noOfDigits": 1,
+        "quesDigit": 4,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 2,
+        "noOfDigits": 2,
+        "quesDigit": 43,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 3,
+        "noOfDigits": 3,
+        "quesDigit": 432,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 1,
+        "noOfDigits": 1,
+        "quesDigit": 4,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 2,
+        "noOfDigits": 2,
+        "quesDigit": 43,
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 3,
+        "noOfDigits": 3,
+        "quesDigit": 432,
+        "marks": 1,
+        "timeDuration": 10
+      }
+    ],
+    "totalTestTime": 1
+  },
+  "wordTest": {
+    "levels": [
+      {
+        "level": 1,
+        "noOfDigits": 1,
+        "quesWords": [
+          "Indore",
+          "Bhopal",
+          "Indore",
+          "Bhopal",
+          "Indore",
+          "Bhopal",
+          "Indore",
+          "Bhopal"
+        ],
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 2,
+        "noOfDigits": 2,
+        "quesWords": ["Dubai", "USA", "England"],
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 3,
+        "noOfDigits": 3,
+        "quesWords": ["Sikkim", "Assam", "Mizoram", "Nagaland"],
+        "marks": 1,
+        "timeDuration": 10
+      }
+    ],
+    "totalTestTime": 1
+  },
+  "signTest": {
+    "levels": [
+      {
+        "level": 1,
+        "noOfDigits": 1,
+        "quesSign": "%^*+",
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 2,
+        "noOfDigits": 2,
+        "quesSign": "-/+@!%&*",
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 3,
+        "noOfDigits": 3,
+        "quesSign": "$#/*-+@&",
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 1,
+        "noOfDigits": 1,
+        "quesSign": "%^*+",
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 2,
+        "noOfDigits": 2,
+        "quesSign": "-/+@!%&*",
+        "marks": 1,
+        "timeDuration": 10
+      },
+      {
+        "level": 3,
+        "noOfDigits": 3,
+        "quesSign": "$#/*-+@&",
+        "marks": 1,
+        "timeDuration": 10
+      }
+    ],
+    "totalTestTime": 1
+  },
+  "imageTest": {
+    "imageTests": {
+      "marks": 1,
+      "totalTestTime": 1,
+      "timeDuration": 5,
+      "images": [
+        "https://picsum.photos/200/300",
+        "https://loremflickr.com/g/320/240/paris",
+        "https://loremflickr.com/320/240/dog",
+        "https://loremflickr.com/320/240?lock=1"
+      ],
+      "questions": [
+        {
+          "question": "What is captial of India",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of MP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of UP",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of AP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  },
+  "calculationTest": {
+    "levels": [
+      {
+        "level": 1,
+        "noOfOperations": 3,
+        "equation": "0+7-52+62",
+        "equationAnswer": 17,
+        "marks": 1,
+        "timeDuration": 10,
+        "totalTestTime": 5,
+        "isDeleted": false
+      },
+      {
+        "level": 2,
+        "noOfOperations": 3,
+        "equation": "4+9-4+7",
+        "equationAnswer": 16,
+        "marks": 1,
+        "timeDuration": 10,
+        "totalTestTime": 5,
+        "isDeleted": false
+      },
+      {
+        "level": 2,
+        "noOfOperations": 3,
+        "equation": "4+9-4+7",
+        "equationAnswer": 16,
+        "marks": 1,
+        "timeDuration": 10,
+        "totalTestTime": 5,
+        "isDeleted": false
+      },
+      {
+        "level": 2,
+        "noOfOperations": 3,
+        "equation": "4+9-4+7",
+        "equationAnswer": 16,
+        "marks": 1,
+        "timeDuration": 10,
+        "totalTestTime": 5,
+        "isDeleted": false
+      },
+      {
+        "level": 2,
+        "noOfOperations": 3,
+        "equation": "4+9-4+7",
+        "equationAnswer": 16,
+        "marks": 1,
+        "timeDuration": 10,
+        "totalTestTime": 5,
+        "isDeleted": false
+      },
+      {
+        "level": 2,
+        "noOfOperations": 3,
+        "equation": "4+9-4+7",
+        "equationAnswer": 16,
+        "marks": 1,
+        "timeDuration": 10,
+        "totalTestTime": 5,
+        "isDeleted": false
+      }
+    ],
+    "totalTestTime": 1
+  },
+  "writingTest": {
+    "writings": {
+      "title": "Write About Corruption.",
+      "timeDuration": 1,
+      "words": ["Corruption", "Government", "Crime", "Greed", "Bribe"]
+    }
+  },
+  "passage": {
+    "passageTests": {
+      "title": "Corruption.",
+      "description": "<p>Corruption in the Indian society has prevailed from time immemorial in one form or the other. The basic inception of corruption started with our opportunistic leaders who have already done greater damage to our nation. People who work on right principles are unrecognized and considered to be foolish in the modern society. Corruption in India is a result of the connection between bureaucrats, politicians and criminals. Earlier, bribes were paid for getting wrong things done, but now bribe is paid for getting right things done at right time. Further, corruption has become something respectable in India, because respectable people are involved in it. Social corruption like less weighing of products, adulteration in edible items, and bribery of various kind have incessantly prevailed in the society. In today's scenario, if a person wants a government job he has to pay lakh of rupees to the higher officials irrespective of satisfying all the eligibility criteria. In every office one has either to give money to the employee concerned or arrange for some sources to get work done. There is adulteration and duplicate weighing of products in food and civil supplies department by unscrupulous workers who cheat the consumers by playing with the health and lives of the people. In the assessment of property tax the officers charge money even if the house is built properly according to the Government rules and regulations.</p>",
+      "passageDisplayTime": 0.5,
+      "totalTestTime": 1,
+      "questions": [
+        {
+          "question": "What is captial of India",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of MP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of UP",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of AP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  },
+  "videoTest": {
+    "videos": {
+      "totalTestTime": 1,
+      "questionTime": 10,
+      "file": "https://www.youtube.com/watch?v=rUWxSEwctFU",
+      "questions": [
+        {
+          "question": "What is captial of India",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of MP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of UP",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of AP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  },
+  "audioTest": {
+    "audios": {
+      "totalTestTime": 1,
+      "questionTime": 10,
+      "file": "https://res.cloudinary.com/dgimekhep/video/upload/v1664443947/file_example_MP3_1MG_qx1y1l.mp3",
+      "questions": [
+        {
+          "question": "What is captial of India",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of MP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of UP",
+          "options": [
+            { "option": "Delhi", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Mumbai", "isCorrect": false },
+            { "option": "Jaipur", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "What is captial of AP",
+          "options": [
+            { "option": "Bhopal", "isCorrect": false },
+            { "option": "Indore", "isCorrect": true },
+            { "option": "Sehore", "isCorrect": false },
+            { "option": "Japalpur", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  },
+  "instruction": [
+    {
+      "_id": "630db70920a867aad36a6db6",
+      "testPage": "Number Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630de3ae9168d4fe58df802a",
+      "testPage": "Word Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df7151c9cc50b03c5775e",
+      "testPage": "Sign Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df71f1c9cc50b03c57765",
+      "testPage": "Image Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df7311c9cc50b03c5776b",
+      "testPage": "Passage Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df74a1c9cc50b03c57772",
+      "testPage": "Questions",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df74a1c9cc50b03c57772",
+      "testPage": "Calculation Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df7571c9cc50b03c57778",
+      "testPage": "Writing Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df76b1c9cc50b03c5777e",
+      "testPage": "Video Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    },
+    {
+      "_id": "630df76b1c9cc50b03c5333e",
+      "testPage": "Audio Test",
+      "content": "<ol><li>Be in uniform(except pass out and PG students). If not, get HOD’s/class advisor’s letter of permission.</li><li>Be Punctual. Late entry permitted only till the first 30 minutes. Students are expected to be seated in the examination hall by&nbsp;<strong>09:30am/01:30pm</strong>. The exam hall will be closed between&nbsp;<strong>09:30am/01:30pm and 09:50am/01:50pm</strong>&nbsp;to avoid inconvenience during question paper distribution. Late comers can enter the exam hall only by 09:50 am/01:50 pm.</li><li>You may leave the hall after the first 30 minutes of the exam.</li><li>Wear your identity card. If not in possession, get HOD’s/class advisor’s letter of permission.</li><li>Please switch off your mobile phones and keep it in your bags/hand it over to the invigilator as soon as you enter the examination hall. If any electronic gadget is found to be possessed by the student, the same shall be confiscated and submitted with the&nbsp;Academic Cell along with the identity card/Admit Card.</li><li>Please occupy your seat at the allotted place in the examination hall at the strike of the first bell, but not before.&nbsp;<strong>Answer booklets will be issued by the invigilators only</strong>.&nbsp;<strong>DO NOT FORGET</strong>&nbsp;to Fill all the appropriate columns and Sign on the facing sheet of the answer booklet.</li><li>Keep your Admit Card on the table. Get permission from the HOD, if not in possession.</li><li>The question papers will be distributed at the strike of the second bell. Invigilator will call up the question paper course code and title. The respective students must stand up and receive the question paper. Please make sure that you are given the right question paper. Please do not write anything on the question paper except your roll number.</li><li>You are not permitted to pass the question paper, much less the answer book, to other students. You are also not allowed to borrow calculators, or any&nbsp;other&nbsp;materials&nbsp;from other students</li><li>Students are not allowed to stand outside the examination hall after the first bell. Students are generally not permitted to enter the examination hall after the second bell. Genuine late comers will be allowed to enter the hall, but only in the first half an hour.</li><li>Students are not permitted to leave the examination hall in the first half an hour.</li><li><strong>Any case of copying, malpractice, discussion shall be reported to the Academic Cell</strong>.&nbsp;(Also refer to points number 14&nbsp;regarding malpractice).</li><li>Students are advised to leave the examination premises as soon as the examination is over. Thronging in the verandah causes inconvenience.</li></ol><p><br></p>",
+      "isDeleted": false
+    }
+  ],
+  "questions": {
+    "questions": [
+      {
+        "_id": "632423e5add5d04d3a3985fe",
+        "type": "Objective",
+        "question": "Where do you live?",
+        "options": [
+          {
+            "title": "Indore",
+            "percentage": "100%",
+            "_id": "632423e5add5d04d3a3985ff"
+          },
+          {
+            "title": "Ujjain",
+            "percentage": "0%",
+            "_id": "632423e5add5d04d3a3985ff"
+          },
+          {
+            "title": "Bhopal",
+            "percentage": "0%",
+            "_id": "632423e5add5d04d3a3985ff"
+          },
+          {
+            "title": "Rewa",
+            "percentage": "0%",
+            "_id": "632423e5add5d04d3a3985ff"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Logic"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Education"
+        },
+        "class": {
+          "_id": "63008cb632705d63ea75b9e8",
+          "name": "11th"
+        },
+        "marks": 20,
+        "difficultyLevel": "High",
+        "__v": 0
+      },
+      {
+        "_id": "632422ca7151146bf1fb91b8",
+        "type": "objective",
+        "question": "Where is India Gate?",
+        "options": [
+          {
+            "title": "Mumbai",
+            "percentage": "0%",
+            "_id": "632422ca7151146bf1fb91b9"
+          },
+          {
+            "title": "Delhi",
+            "percentage": "100%",
+            "_id": "632422ca7151146bf1fb91b9"
+          },
+          {
+            "title": "Chennai",
+            "percentage": "0%",
+            "_id": "632422ca7151146bf1fb91b9"
+          },
+          {
+            "title": "Jaipur",
+            "percentage": "0%",
+            "_id": "632422ca7151146bf1fb91b9"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Logic"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Aptitude"
+        },
+        "class": {
+          "_id": "63008cb632705d63ea75b9e8",
+          "name": "11th"
+        },
+        "marks": 20,
+        "difficultyLevel": "High",
+        "__v": 0
+      },
+      {
+        "_id": "632422b67151146bf1fb91b4",
+        "type": "objective",
+        "question": "Where did Mahatma Gandhi Born",
+        "options": [
+          {
+            "title": "Porbandar",
+            "percentage": "100%",
+            "_id": "632422b67151146bf1fb91b5"
+          },
+          {
+            "title": "Gandhi Nagar",
+            "percentage": "0%",
+            "_id": "632422b67151146bf1fb91b5"
+          },
+          {
+            "title": "Rajkot",
+            "percentage": "0%",
+            "_id": "632422b67151146bf1fb91b5"
+          },
+          {
+            "title": "Surat",
+            "percentage": "0%",
+            "_id": "632422b67151146bf1fb91b5"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Logic"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Education"
+        },
+        "class": {
+          "_id": "63008cb632705d63ea75b9e8",
+          "name": "11th"
+        },
+        "marks": 20,
+        "difficultyLevel": "High",
+        "__v": 0
+      },
+      {
+        "_id": "632421e57151146bf1fb91b0",
+        "type": "objective",
+        "question": "You have made some silly mistakes which have been pointed out to you. You will",
+        "options": [
+          {
+            "title": "Laugh It Away",
+            "percentage": "50%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Get Angry",
+            "percentage": "25%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Feel Miserable",
+            "percentage": "75%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Feel Thankful",
+            "percentage": "40%",
+            "_id": "632421e57151146bf1fb91b1"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Interest"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Perception"
+        },
+        "class": {
+          "_id": "63008cdb32705d63ea75ba19"
+        },
+        "marks": 20,
+        "difficultyLevel": "High",
+        "__v": 0
+      },
+      {
+        "_id": "632421e57151146bf1fb21b0",
+        "type": "objective",
+        "question": "You are moving across the road on a scooter when you observe that two boys on a bike snatch a lady's gold chain and ride away. You would ",
+        "options": [
+          {
+            "title": " Console the woman",
+            "percentage": "50%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Chase the boys to catch hold of them",
+            "percentage": "25%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Inform the police about the matter",
+            "percentage": "75%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Stand and see what happens next",
+            "percentage": "40%",
+            "_id": "632421e57151146bf1fb91b1"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Interest"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Perception"
+        },
+        "class": {
+          "_id": "63008cdb32705d63ea75ba19"
+        },
+        "difficultyLevel": "High",
+        "__v": 0
+      }
+    ],
+
+    "totalTestTime": 2
+  },
+  "interestTest": {
+    "interestTests": [
+      {
+        "_id": "632423e5add5d04d3a3985fe",
+        "type": "Objective",
+        "question": "Where do you live?",
+        "options": [
+          {
+            "title": "Indore",
+            "percentage": "100%",
+            "_id": "632423e5add5d04d3a3985ff"
+          },
+          {
+            "title": "Ujjain",
+            "percentage": "0%",
+            "_id": "632423e5add5d04d3a3985ff"
+          },
+          {
+            "title": "Bhopal",
+            "percentage": "0%",
+            "_id": "632423e5add5d04d3a3985ff"
+          },
+          {
+            "title": "Rewa",
+            "percentage": "0%",
+            "_id": "632423e5add5d04d3a3985ff"
+          }
+        ]
+      },
+      {
+        "_id": "632422ca7151146bf1fb91b8",
+        "type": "objective",
+        "question": "Where is India Gate?",
+        "options": [
+          {
+            "title": "Mumbai",
+            "percentage": "0%",
+            "_id": "632422ca7151146bf1fb91b9"
+          },
+          {
+            "title": "Delhi",
+            "percentage": "100%",
+            "_id": "632422ca7151146bf1fb91b9"
+          },
+          {
+            "title": "Chennai",
+            "percentage": "0%",
+            "_id": "632422ca7151146bf1fb91b9"
+          },
+          {
+            "title": "Jaipur",
+            "percentage": "0%",
+            "_id": "632422ca7151146bf1fb91b9"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Logic"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Aptitude"
+        },
+        "class": {
+          "_id": "63008cb632705d63ea75b9e8",
+          "name": "11th"
+        },
+        "marks": 20,
+        "difficultyLevel": "High",
+        "__v": 0
+      },
+      {
+        "_id": "632422b67151146bf1fb91b4",
+        "type": "objective",
+        "question": "Where did Mahatma Gandhi Born",
+        "options": [
+          {
+            "title": "Porbandar",
+            "percentage": "100%",
+            "_id": "632422b67151146bf1fb91b5"
+          },
+          {
+            "title": "Gandhi Nagar",
+            "percentage": "0%",
+            "_id": "632422b67151146bf1fb91b5"
+          },
+          {
+            "title": "Rajkot",
+            "percentage": "0%",
+            "_id": "632422b67151146bf1fb91b5"
+          },
+          {
+            "title": "Surat",
+            "percentage": "0%",
+            "_id": "632422b67151146bf1fb91b5"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Logic"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Education"
+        },
+        "class": {
+          "_id": "63008cb632705d63ea75b9e8",
+          "name": "11th"
+        },
+        "marks": 20,
+        "difficultyLevel": "High",
+        "__v": 0
+      },
+      {
+        "_id": "632421e57151146bf1fb91b0",
+        "type": "objective",
+        "question": "You have made some silly mistakes which have been pointed out to you. You will",
+        "options": [
+          {
+            "title": "Laugh It Away",
+            "percentage": "50%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Get Angry",
+            "percentage": "25%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Feel Miserable",
+            "percentage": "75%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Feel Thankful",
+            "percentage": "40%",
+            "_id": "632421e57151146bf1fb91b1"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Interest"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Perception"
+        },
+        "class": {
+          "_id": "63008cdb32705d63ea75ba19"
+        },
+        "marks": 20,
+        "difficultyLevel": "High",
+        "__v": 0
+      },
+      {
+        "_id": "632421e57151146bf1fb21b0",
+        "type": "objective",
+        "question": "You are moving across the road on a scooter when you observe that two boys on a bike snatch a lady's gold chain and ride away. You would ",
+        "options": [
+          {
+            "title": " Console the woman",
+            "percentage": "50%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Chase the boys to catch hold of them",
+            "percentage": "25%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Inform the police about the matter",
+            "percentage": "75%",
+            "_id": "632421e57151146bf1fb91b1"
+          },
+          {
+            "title": "Stand and see what happens next",
+            "percentage": "40%",
+            "_id": "632421e57151146bf1fb91b1"
+          }
+        ],
+        "section": {
+          "_id": "62f24dcbcd0776ff2909acb4",
+          "name": "Interest"
+        },
+        "element": {
+          "_id": "63008e4299e1ac1fc95e0da5",
+          "name": "Perception"
+        },
+        "class": {
+          "_id": "63008cdb32705d63ea75ba19"
+        },
+        "difficultyLevel": "High",
+        "__v": 0
+      }
+    ],
+    "minOptions": 2,
+    "maxOptions": 3,
+    "totalTestTime": 2
+  }
+}

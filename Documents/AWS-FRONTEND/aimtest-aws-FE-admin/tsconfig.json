@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "downlevelIteration": true,
+    "lib": ["dom", "ES2021.String","dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "src",
+  
+  },
+  "include": ["type.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx","next.config.js", "src/components/Layout/Header/SidebarItem.js", "src/components/Layout/Header/Sidebar.js"],
+  "exclude": ["node_modules"]
+}
